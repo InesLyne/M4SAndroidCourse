@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="33a0dd8fe5579a45bc93ac58ca842e7e41ae56c6">
+        <dex dex="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/pre-dexed/debug/instant-run_b381937f0272f2d624bf6079d9d7cf1154ace7a2.jar" />
+    </item>
+    <item
+        jar="/home/evelyne-ines/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_874761b8e6115246ee8462c98ab45b6cb5ce76bd.jar" />
+    </item>
+    <item
+        jar="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_71d37f7993a2e30f2b53e1df8b2b41972aef7410.jar" />
+    </item>
+    <item
+        jar="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c43a8b580d91ebc9d4e87c78afb2115490bfbc4f">
+        <dex dex="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_509080e5a574a73fef40fa726fe102136fe8612e.jar" />
+    </item>
+    <item
+        jar="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_818bb7fdc76033d6c9dd72ea6a723a2e1cac2b04.jar" />
+    </item>
+    <item
+        jar="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_ac14ae84f7fb73fae988a452456725205be0fc4d.jar" />
+    </item>
+    <item
+        jar="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_6a48ebf880973088b7455e2f86932b73bd55b250.jar" />
+    </item>
+    <item
+        jar="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/evelyne-ines/AndroidStudioProjects/HelloWorld/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_6059473aa73d659df364c2824826f6df094de546.jar" />
+    </item>
+
+</items>
