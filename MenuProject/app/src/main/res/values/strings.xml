@@ -3,4 +3,16 @@
     <string name="new_name">NewActivity</string>
     <string name="help_name">HelpActivity</string>
     <string name="action_settings">Settings</string>
+    <string name="help">The 6 buttons are:\n
+SMS – When we click on SMS, the default Android SMS app is called. The SMS is populated with a phone number and a message that contains your name.\n
+Phone – When we click on Phone, the default Android caller app is displayed. The phone number is populated with a phone number of your choice.\n
+Web – When we click on Web, the browser opens up with a URL of your choice.\n
+Map – When we click on Map, the Google Maps app opens and it is centered on your birth place.\n
+Share – When we click on Share, the chooser Activity opens with “Share the love” as a title.\n
+New Activity – A new activity (NewACtivity.java) opens up when we click on the New Activity button. \n
+
+The menu has 2 items:\n
+Help – When we click on Help, HelpActivity.java starts.\n
+Settings
+    </string>
 </resources>
