@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.evelyne_ines.currencyconverter.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversion Dollars - Francs CFA"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="17dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#990E7A"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/etinput"
+            android:hint="Entrez le montant"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/btnsubmit"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:entries="@array/languages"
+            android:minHeight="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+            android:minWidth="70dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertir"
+        android:id="@+id/btnsubmit"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Résultat"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:width="100dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvoutput"
+            android:width="300dp"
+            android:height="50dp"
+            android:textSize="20dp"
+            android:background="@drawable/shape"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/btnsubmit"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="80dp" />
+    </LinearLayout>
+
+</RelativeLayout>
