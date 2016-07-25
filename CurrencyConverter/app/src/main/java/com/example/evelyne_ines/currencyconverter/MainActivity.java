@@ -14,24 +14,16 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private EditText input;
-    private TextView output;
-    private Button btnsubmit;
+public class MainActivity extends AppCompatActivity implements MainActivityFragment.MainFragmentCallback {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        btnsubmit = (Button)findViewById(R.id.btnsubmit);
-        btnsubmit.setOnClickListener(this);
-        input = (EditText)findViewById(R.id.etinput);
-        output = (TextView)findViewById(R.id.tvoutput);
-
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,32 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .setAction("Action", null).show();
             }
         });
-    }
-
-    @Override
-    public void onClick(View view) {
-        if(view.getId() == R.id.btnsubmit){
-            Spinner spinner = (Spinner)findViewById(R.id.spinner);
-            String choice = spinner.getSelectedItem().toString();
-            Log.e("valeur", choice);
-            if(input.getText().toString().trim().equals("")){
-                input.setError("This field cannot be empty!");
-            }else {
-                Log.e("info", "Empty");
-                conversion(choice);
-            }
-        }
-    }
-    public void conversion (String choice){
-        Float f = Float.parseFloat(input.getText().toString());
-
-        if(choice.equals("Dollars")){
-            Float results = new Float(f * 586.84);
-            output.setText(results.toString()+"\n Francs CFA");
-        }else{
-            Float results = new Float(f / 586.84);
-            output.setText(results.toString() + "\n Dollars");
-        }
     }
 
     @Override
@@ -88,5 +54,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public String onClicked() {
+        Spinner spinner = (Spinner)findViewById(R.id.spinner);
+        String choice = spinner.getSelectedItem().toString();
+        return choice;
+
     }
 }

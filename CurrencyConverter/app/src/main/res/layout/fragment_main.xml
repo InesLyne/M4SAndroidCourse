@@ -81,7 +81,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvoutput"
-            android:width="300dp"
             android:height="50dp"
             android:textSize="20dp"
             android:background="@drawable/shape"
@@ -90,7 +89,8 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:layout_weight="0.75"/>
+            android:layout_weight="0.75"
+            android:minWidth="300dp" />
     </LinearLayout>
 
 </RelativeLayout>
