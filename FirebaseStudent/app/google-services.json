@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "922132736825",
+    "firebase_url": "https://fir-student-644dc.firebaseio.com",
+    "project_id": "fir-student-644dc",
+    "storage_bucket": "fir-student-644dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922132736825:android:31c167e221c4a718",
+        "android_client_info": {
+          "package_name": "com.example.evelyne_ines.firebasestudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922132736825-egiaald363q3inqau506rc930aubkeja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCORk9rF5Jc8_kG0AM0ZvgPVjzSUqXhanc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
