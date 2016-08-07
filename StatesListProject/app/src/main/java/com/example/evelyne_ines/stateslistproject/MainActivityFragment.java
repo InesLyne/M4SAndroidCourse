@@ -48,15 +48,15 @@ public class MainActivityFragment extends Fragment implements AdapterView.OnItem
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        if(i == 19){
+        if(i == 13){
             Intent intent = new Intent(getContext(), MapsActivity.class);
-            intent.putExtra("Lat", "38.979054");
-            intent.putExtra("Lng", "-76.492236");
-            intent.putExtra("capital", "Annapolis");
+            intent.putExtra("Lat", "39.770757");
+            intent.putExtra("Lng", "-86.180816");
+            intent.putExtra("capital", "Indianapolis");
             intent.putExtra("Name", states[i]);
             startActivity(intent);
         }else{
-            Toast toast = Toast.makeText(getActivity(), "click on MaryLand to display the map", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getActivity(), "click on Indiana to display the map", Toast.LENGTH_SHORT);
             toast.show();
         }
     }
